@@ -18,24 +18,30 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="File.cpp">
+    <ClCompile Include="FakeFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Directory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FakeFileSystem.cpp">
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHandling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="File.h">
+    <ClInclude Include="FakeFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Directory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FakeFileSystem.h">
+    <ClInclude Include="File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHandling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

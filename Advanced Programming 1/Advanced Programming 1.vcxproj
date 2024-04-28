@@ -20,14 +20,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Directory.cpp" />
-    <ClCompile Include="FakeFileSystem.cpp" />
+    <ClCompile Include="FakeFile.cpp" />
     <ClCompile Include="File.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="TimeHandling.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Directory.h" />
-    <ClInclude Include="FakeFileSystem.h" />
+    <ClInclude Include="FakeFile.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="TimeHandling.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -115,6 +117,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

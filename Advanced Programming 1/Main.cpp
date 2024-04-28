@@ -9,7 +9,7 @@ int main() {
 
 	// ask for root dir path //
 	cout << "Enter root directory path: ";
-	getline(cin, initialDirectoryPath);
+	//getline(cin, initialDirectoryPath);
 	
 	// const rootDir
 
